@@ -1,0 +1,49 @@
+# Node
+node_modules/
+dist/
+build/
+.angular/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environments
+.env
+.env.*
+!.env.example
+
+# Docker
+**/docker-compose.override.yml
+docker-data/
+*.pid
+
+# Maven / Spring Boot
+target/
+*.iml
+
+# Database
+mysql_data/
+postgres_data/
+*.sql
+
+# JetBrains Rider
+.idea/
+
+# Coverage / reports
+coverage/
+lcov-report/
+
+# Other
+tmp/
+
